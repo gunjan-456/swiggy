@@ -1,0 +1,31 @@
+import { useNavigate } from "react-router-dom"
+import greenImg from "../assets/cardGreenIcon.svg"
+import {useGlobalContext} from "../Utils/GlobalContext"
+
+
+
+
+const Card = ({resId, key, header, subHeader, imageId, name, avgRating, slaString, cuisines, areaName, size}) => {
+     const{cdn} = useGlobalContext()
+     const navigate = useNavigate()
+  return (
+        <div onClick={() => {
+            navigate("/menu/" + resId)
+        }} className="hover:cursor-pointer hover:shadow-2xl" key={key}>
+            <div className={`relative ` + (size == "sm" ? "w-[250px]" : "w-[300px]")}>
+                <img src={cdn + imageId} alt="" className={'w-[100%] rounded-2xl ' + (size == "sm" ? "h-[150px]" : "h-[200px]")} />
+                {header && <p className='absolute bottom-1 left-2 text-white font-bold'>{header + subHeader}</p>}
+            </div>
+
+            <div>
+
+                <h2 className='font-bold'>{name.length > 25 ? name.slice(0,25) + "..." : name}</h2>
+                <p className='flex text-sm'><img src={greenImg} alt="" /> &nbsp; {avgRating} • {slaString} </p>
+                <p className='text-sm text-gray-400'>{cuisines.join(", ").length > 30 ? cuisines.join(", ").slice(0,30) + "...": cuisines.join(", ")}</p>
+                <p className='text-sm text-gray-400'>{areaName}</p>
+            </div>
+
+        </div>
+  )
+}
+export default Card
