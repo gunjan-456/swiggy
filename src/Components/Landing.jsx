@@ -23,7 +23,7 @@ const Landing = () => {
                 <p>Swiggy Corporate</p>
                 <p>Partner with us</p>
                 <button className='border border-white rounded-lg py-3 px-6'>Get The App<i class="fa-solid fa-arrow-right fa-sm text-white ml-2" ></i></button>
-                <button className='bg-black py-3 px-6 rounded-lg'>Sign In</button>
+                {/* <button className='bg-black py-3 px-6 rounded-lg'>Sign In</button> */}
             </div>
         </nav>
 
