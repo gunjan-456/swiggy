@@ -1,5 +1,5 @@
 import React from 'react'
-import logoImg from "../assets/logo.webp"
+import logoImg from "../assets/logo.png"
 import food from "../assets/food.avif"
 import instamart from "../assets/instamart.avif"
 import dineout from "../assets/dineout.avif"
@@ -23,6 +23,7 @@ const Landing = () => {
                 <p>Swiggy Corporate</p>
                 <p>Partner with us</p>
                 <button className='border border-white rounded-lg py-3 px-6'>Get The App<i class="fa-solid fa-arrow-right fa-sm text-white ml-2" ></i></button>
+                <i className="fa-solid fa-magnifying-glass absolute top-4 right-8"></i>
                 {/* <button className='bg-black py-3 px-6 rounded-lg'>Sign In</button> */}
             </div>
         </nav>
