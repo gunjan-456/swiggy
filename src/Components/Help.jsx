@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
-import { ai_prompt, api_key } from "../Utils/constants";
+import { ai_prompt, api_key} from "../Utils/Constants";
 import toast from "react-hot-toast";
 
 const Help = () => {
