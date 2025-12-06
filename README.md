@@ -1,12 +1,14 @@
-# React + Vite
+A fully responsive and visually polished Swiggy Clone built using ReactJS, Redux Toolkit, and TailwindCSS. This project recreates the modern food-delivery interface with smooth interactions, dynamic restaurant listings, reusable components, and an intuitive browsing experience — closely reflecting the real Swiggy website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🧩 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: ReactJS, Vite
 
-## Expanding the ESLint configuration
+State Management: Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: TailwindCSS
+
+API: Swiggy Public API for real-time restaurant data
+
+swiggy-c6dq0a8eb-gunjan-singhs-projects.vercel.app
