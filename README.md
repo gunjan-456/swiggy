@@ -11,4 +11,6 @@ Styling: TailwindCSS
 
 API: Swiggy Public API for real-time restaurant data
 
-swiggy-c6dq0a8eb-gunjan-singhs-projects.vercel.app
+https://swiggy-c6dq0a8eb-gunjan-singhs-projects.vercel.app/
+
+
